@@ -107,6 +107,37 @@ body {
     background-color:#000;
 }
 
+.barContiner {
+	position: relative;
+	width: 350px;
+    height: 10px;
+	margin-top: 25px;
+}
+
+.barContiner .barw {
+	position: absolute;
+	background: #aaa;
+	width: 350px;
+	height: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.barContiner .barg {
+	position: absolute;
+	background: #45c9a8;
+	height: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+	-webkit-animation: bargGrowing 2s;
+    animation: bargGrowing 2s;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
 @media (min-width: 1024px) {
   .slider_cotiner {
     height: 768px;
